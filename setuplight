@@ -1,0 +1,13 @@
+cd /home/pi/HAP-NodeJS
+sudo npm install node-cmd
+sudo mkdir python
+cd accessories/
+sudo rm -rf Light_accessory.js
+sudo wget https://raw.githubusercontent.com/stevenVettel/HomeKit-with-Hap-NodeJS-/master/Light_accessory.js
+sudo mv Zgjpwx Light_accessory.js
+cd /home/pi/HAP-NodeJS/python
+sudo wget https://raw.githubusercontent.com/stevenVettel/HomeKit-with-Hap-NodeJS-/master/light0.py
+sudo mv gVXDFw light0.py
+sudo wget https://raw.githubusercontent.com/stevenVettel/HomeKit-with-Hap-NodeJS-/master/light1.py
+sudo mv ojDhVH light1.py
+echo "Process Complete :)"
